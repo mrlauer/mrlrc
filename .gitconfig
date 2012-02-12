@@ -1,0 +1,16 @@
+[github]
+	user = mrlauer
+	token = 9808e36b85ab5751b3fe1af759273257
+[user]
+	name = Michael Lauer
+	email = michael@mrlauer.com
+[gui]
+	recentrepo = /Users/mrlauer/Documents/monad/coffee-script-monads
+[alias]
+	co = checkout
+	st = status
+	graph = log --graph --pretty=oneline --decorate --abbrev-commit
+	lgb = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches
+	lgbt = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches --topo-order
+[core]
+	excludesfile = ~/.gitignore_global

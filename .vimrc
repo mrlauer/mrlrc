@@ -1,4 +1,6 @@
 set rtp+=$GOROOT/misc/vim
+filetype off
+filetype on
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim

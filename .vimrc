@@ -11,7 +11,11 @@ se expandtab
 se shiftwidth=4
 se autoindent
 se smartindent
-se guifont=DejaVu\ Sans\ Mono:h12
+if has("gui_macvim")
+    se guifont=DejaVu\ Sans\ Mono:h12
+else
+    se guifont=DejaVu\ Sans\ Mono\ 10
+endif
 syntax on
 se encoding=utf-8
 se ruler

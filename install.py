@@ -24,6 +24,7 @@ if __name__ == '__main__':
             '.gitignore_global',
             '.vimrc',
             '.vim',
+            '.inputrc',
             ]
     for f in sources:
         installFile(f)

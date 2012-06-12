@@ -25,6 +25,8 @@ if __name__ == '__main__':
             '.vimrc',
             '.vim',
             '.inputrc',
+            '.hgrc',
+            '.hgignore_global',
             ]
     for f in sources:
         installFile(f)

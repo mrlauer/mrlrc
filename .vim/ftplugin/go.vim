@@ -1,3 +1,4 @@
 setlocal noet
 setlocal ts=4
 setlocal sw=4
+setlocal omnifunc=gocomplete#Complete

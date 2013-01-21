@@ -1,5 +1,6 @@
 set rtp+=$GOROOT/misc/vim
 set rtp+=$HOME/vimplugins/vim-coffee-script
+set rtp+=$HOME/vimplugins/vim-scala
 filetype off
 filetype on
 set nocompatible

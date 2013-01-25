@@ -1,11 +1,3 @@
-[github]
-	user = mrlauer
-	token = 9808e36b85ab5751b3fe1af759273257
-[user]
-	name = Michael Lauer
-	email = michael@mrlauer.com
-[gui]
-	recentrepo = /Users/mrlauer/Documents/monad/coffee-script-monads
 [alias]
 	co = checkout
 	st = status

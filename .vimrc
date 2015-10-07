@@ -1,7 +1,7 @@
 set rtp+=$GOROOT/misc/vim
 set rtp+=$HOME/vimplugins/vim-coffee-script
 set rtp+=$HOME/vimplugins/vim-scala
-filetype off
+set rtp+=$LILYROOT/share/lilypond/current/vim
 filetype on
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim

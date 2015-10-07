@@ -15,6 +15,8 @@ let s:commentStrings = [
 \   [ "conf", "#", ""],
 \   [ "go", "//", ""],
 \   [ "haml", "-#", ""],
+\   [ "cmake", "#", ""],
+\   [ "lilypond", "%", ""],
 \   ]
 
 function! s:getCommentStrings()

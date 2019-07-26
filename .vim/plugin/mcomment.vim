@@ -107,7 +107,7 @@ function! MCommentRange() range
     endfor
     let oldexpandtab = &expandtab
     for lineno in range(a:firstline, a:lastline)
-        call cursor(lineno)
+        call cursor(lineno, 0)
         set expandtab
         retab!
         if uncomment == 1

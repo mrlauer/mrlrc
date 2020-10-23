@@ -10,6 +10,14 @@ behave mswin
 
 se softtabstop=4
 se expandtab
+
+if has("autocmd")
+    " If the filetype is Makefile then we need to use tabs
+    " So do not expand tabs into space.
+    autocmd FileType make   set noexpandtab
+    autocmd FileType make   set softtabstop=8
+endif
+
 se shiftwidth=4
 se autoindent
 se smartindent

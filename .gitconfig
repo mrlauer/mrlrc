@@ -10,3 +10,5 @@
 [user]
 	email = mrlauer@gmail.com
 	name = Michael Lauer
+[push]
+	default = current

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import os
 import os.path
@@ -10,12 +10,12 @@ def installFile(filename):
     srcdir = os.path.dirname(os.path.abspath(__file__))
     src = os.path.join(srcdir, filename)
     if os.path.lexists(target):
-        print "removing", target
+        print ("removing", target)
         if os.path.isdir(target) and not os.path.islink(target):
             shutil.rmtree(target)
         else:
             os.remove(target)
-    print "linking %s to %s" % (src, target)
+    print ("linking %s to %s" % (src, target))
     os.symlink(src, target)
 
 if __name__ == '__main__':

@@ -7,8 +7,15 @@
 	lgbt = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches --topo-order
 [core]
 	excludesfile = ~/.gitignore_global
+        attributesfile = ~/.gitattributes
 [user]
 	email = mrlauer@gmail.com
 	name = Michael Lauer
 [push]
 	default = current
+
+[diff "gz"]
+    binary = true
+    textconv = gunzip --stdout
+[init]
+	defaultBranch = main
